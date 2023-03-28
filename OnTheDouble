@@ -1,0 +1,7 @@
+public class OnTheDouble {
+    public static double x = 0.5;
+    public static int getNumber() {
+        x = x * 2;
+        return(int) x;
+    }
+}
